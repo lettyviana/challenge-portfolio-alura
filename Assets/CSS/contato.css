@@ -240,6 +240,11 @@
         padding: .75rem 1rem;
         width: 151px;
     }
+
+    .seta-cima {
+        bottom: -65px;
+        right: 15px;
+    }
 }
 
 
@@ -272,6 +277,12 @@
 
     .formulario__campos textarea {
         width: 296px;
+    }
+
+    .seta-cima {
+        bottom: -40px;
+        font-size: 4rem;
+        right: -10px;
     }
 }
 

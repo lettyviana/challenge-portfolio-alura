@@ -54,7 +54,7 @@
     #skills-hobbies {
         height: auto;
         padding: 2rem;
-        width: 768px;
+        width: auto;
     }
     
     .container__skills, .container__hobbies {

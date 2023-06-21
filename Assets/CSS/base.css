@@ -25,3 +25,19 @@ body {
     background: var(--preto05);
     color: var(--preto100);
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--preto30);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--azul80);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--azul100);
+}

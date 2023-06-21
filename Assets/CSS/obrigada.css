@@ -1,0 +1,75 @@
+.container__obrigada {
+    align-items: center;
+    background: var(--azul10);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container__texto {
+    align-items: center;
+    border: 2px solid var(--azul100);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    max-width: 600px;
+    padding: 1rem;
+    width: 100%;
+}
+
+.titulo__obrigada {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.texto__obrigada {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.botao__voltar {
+    background-color: var(--azul100);
+    cursor: pointer;
+    order: 2;
+    padding: 1rem;
+    transition: all .2s;
+    width: 165px;
+}
+
+.botao__voltar a {
+    color: var(--branco);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.botao__voltar:hover {
+    background-color: var(--azul80);
+}
+
+@media screen and (max-width: 375px) {
+    .container__texto {
+        gap: 1rem;
+        width: 290px;
+    }
+
+    .titulo__obrigada {
+        font-size: 1rem;
+    }
+    
+    .texto__obrigada {
+        font-size: .875rem;
+        text-align: center;
+    }
+
+    .botao__voltar {
+        height: 40px;
+        padding: .75rem 1rem;
+        width: 151px;
+    }
+
+    .botao__voltar a {
+        font-size: .875rem;
+    }
+}

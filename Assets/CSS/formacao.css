@@ -1,0 +1,128 @@
+#formacao {
+    background-color: var(--azul10);
+    padding: 5.125rem;
+}
+
+.container__formacao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.375rem;
+    width: 100%;
+}
+
+.container__formacao--titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.conteudo__formacao {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    width: auto;
+}
+
+.conteudo__formacao--imagem {
+    align-items: center;
+    background: var(--branco);
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+    height: 290px;
+    width: 370px;
+}
+
+.conteudo__formacao--curso {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.conteudo__formacao--conclusao {
+    font-size: 1.150rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    #formacao {
+        padding: 2rem;
+    }
+    
+    .container__formacao {
+        gap: 2rem;
+        margin: 0 auto;
+        width: 704px;
+    }
+    
+    .container__formacao--titulo {
+        font-size: 1.375rem;
+    }
+    
+    .conteudo__formacao {
+        gap: 1rem;
+    }
+
+    .conteudo__formacao--descricao {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    
+    .conteudo__formacao--imagem {
+        gap: .625rem;
+        height: 125px;
+        width: 255px;
+    }
+
+    .conteudo__formacao--imagem img {
+        height: 58px; 
+        width: 84px;
+    }
+    
+    .conteudo__formacao--curso {
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+    
+    .conteudo__formacao--conclusao {
+        font-size: 0.875rem;
+    }
+}
+
+/* Celular */
+@media screen and (max-width: 425px) {
+    #formacao {
+        width: auto;
+    }
+    
+    .container__formacao {
+        margin: 0;
+        width: auto;
+    }
+    
+    .conteudo__formacao {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .conteudo__formacao--descricao {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    
+    .conteudo__formacao--imagem {
+        height: 130px;
+        width: 90vw;
+    }
+
+    .conteudo__formacao--imagem img {
+        height: 58px; 
+        width: 84px;
+    }
+}

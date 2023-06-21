@@ -1,0 +1,104 @@
+#skills-hobbies {
+    background: var(--preto05);
+    padding: 4rem;
+}
+
+.container__skills, .container__hobbies {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container__skills {
+    margin-top: 2rem;
+}
+
+.container__skills--titulo, .container__hobbies--titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.conteudo__skills, .conteudo__hobbies {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.conteudo__skills--caixa, .conteudo__hobbies--caixa {
+    align-items: flex-start;
+    background: var(--branco);
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 700;
+    gap: .5rem;
+    justify-content: flex-end;
+    height: 174px;
+    padding: 1rem;
+    width: 176px;
+}
+
+.skills__icone, .hobbies__icone {
+    color: var(--azul100);
+    font-size: 2rem;
+}
+
+.container__hobbies {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    #skills-hobbies {
+        height: auto;
+        padding: 2rem;
+        width: 768px;
+    }
+    
+    .container__skills, .container__hobbies {
+        margin: 0 auto;
+        width: 704px;
+    }
+
+    .container__skills--titulo, .container__hobbies--titulo {
+        font-size: 1.375rem;
+    }
+    
+    .conteudo__skills, .conteudo__hobbies {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .conteudo__skills--caixa, .conteudo__hobbies--caixa {
+        height: 115px;
+        width: 220px;
+    }
+    
+    .skills__icone, .hobbies__icone {
+        color: var(--azul100);
+        font-size: 2rem;
+    }
+    
+    .container__hobbies {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #skills-hobbies {
+        padding: 1rem;
+        width: auto;
+    }
+
+    .container__skills, .container__hobbies {
+        width: auto;
+    }
+
+
+    .conteudo__skills--caixa, .conteudo__hobbies--caixa {
+        height: 118px;
+        width: 156px;
+    }
+}

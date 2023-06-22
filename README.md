@@ -63,7 +63,7 @@ Para acessar, clique <a href="https://lettyviana.github.io/challenge-portfolio-a
 
 ### **5. Autora e contato**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leticiaviana-trad-dev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/leticiaviana-trad-dev_oraclenexteducation-html-css-activity-7077570935314071553-eqku?utm_source=share&utm_medium=member_desktop)
 
 #
 
